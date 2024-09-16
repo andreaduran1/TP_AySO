@@ -1,0 +1,126 @@
+ls
+cd repogit
+cd ..
+whoami
+pwd
+echo "hola"
+man ls
+man man
+ls
+cd repogit
+ls
+git clone https://github.com/andreaduran1/repo_duran.git
+ls
+cd repo_duran
+ls
+history
+history > historial.txt
+ls
+cat historial.txt
+logout
+pwd
+ls
+cd repogit
+ls
+.
+./
+cd vagrant
+..
+pwd
+ls
+cd ..
+pwd
+ssh-keygen -t ed25519
+exit
+pwd
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd ssh
+cd .ssh
+ls
+ls -l
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit
+ls -l
+rm -r repo_duran
+sudo rm -r repo_duran
+ls -l
+pwd
+git clone git@github.com:andreaduran1/repo_duran.git
+ls -l
+echo "hola"
+cd repo_duran
+echo "hola" > hola.txt
+ls -l
+git status
+git add .
+git status
+git commit -m "primer commit"
+git config --global user.email "and.duram@gmail.com"
+git config --global user.name "andreaduran1"
+git status
+git commit -m "primer commit"
+git status
+git push
+cat /etc/passwd
+head -n2 /etc/passwd
+grep bash etc/passwd
+grep bash /etc/passwd
+grep bash /etc/passwd > archivo2.txt
+ls -l
+cat archivo2.txt
+sort archivo2.txt
+bc <<< 3+ 1
+bc <<<3+1
+cat << EOF > archivo3.txt
+lista 1
+lista 2
+linea 3
+EOF
+
+cat archivo3.txt
+echo "chau" >> hola.txt
+cat hola.txt
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep model
+cat /proc/cpuinfo | grep model | head -n2
+git status
+cd repogit
+cd TP_AySO/
+git status
+cat /etc/passwd
+grep -v "nologin" /etc/passwd
+man sor via a key
+man sort via a key
+man sort
+grep -v "nologin" /etc/passwd | head -n 10 | sort -k7
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t: -k7
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t: --key=7,7r
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t: --key=7
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t: --key=7  > lista_ordenada.txt
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+man dump
+man dump traffic
+man "dump traffic"
+man tcpdump
+echo "tcpdump" > comando_dump_net.txt
+cat comando_dump_net.txt
+echo "tcpdump -i NOMBRE_INTERFAZ host IP" >> comando_dump_net.txt
+cat comando_dump_net.txt
+git add .
+git commit -m "ADD: Comando para capturar y analizar el tráfico de red"
+ls
+cat << EOF >> README.md
+Alumna: Andrea Duran
+División: 311
+Turno: Noche
+EOF
+
+git add .
+git commit -m "feat: añadiendo información del alumno, división y turno"
+history -a
