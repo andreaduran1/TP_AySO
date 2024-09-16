@@ -1,0 +1,2 @@
+tcpdump
+tcpdump -i NOMBRE_INTERFAZ host IP
